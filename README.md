@@ -4,7 +4,7 @@ Dashboard interaktif berbasis **Looker Studio** yang menampilkan analisis perfor
 
 ---
 
-## Deskripsi Proyek
+## 📘 Deskripsi Proyek
 
 Proyek ini bertujuan untuk menyiapkan dan menggabungkan data transaksi, cabang, serta produk Kimia Farma menjadi satu tabel analisis utama menggunakan **Python di Google Colab** dan **SQL di BigQuery**.
 File Python digunakan untuk proses *data cleaning*, sedangkan file SQL digunakan untuk membuat tabel analisis yang menampilkan hasil dari hasil olahan data.
