@@ -19,7 +19,7 @@ CREATE TABLE kimia_farma.kf_analysis_table AS
     p.price AS actual_price, -- Alias untuk memperjelas konteks harga asli produk
     ft.discount_percentage,
     
-    -- Menentukan persentase laba kotor berdasarkan rentang harga produk
+    -- Menentukan persentase laba berdasarkan rentang harga produk
     CASE
       WHEN p.price <= 50000 THEN 0.1
       WHEN p.price <= 100000 THEN 0.15
@@ -29,7 +29,7 @@ CREATE TABLE kimia_farma.kf_analysis_table AS
     END AS persentase_gross_laba,
     
     -- Menghitung nilai penjualan bersih setelah diskon
-    p.price - (p.price * ft.discount_percentage) AS nett_sales, -- Menggunakan alias untuk memberi nama kolom yang belum ada sebelumnya
+    p.price - (p.price * ft.discount_percentage) AS nett_sales,
     
     -- Menghitung laba bersih per transaksi berdasarkan penjualan bersih dan persentase laba
     (p.price - (p.price * ft.discount_percentage)) * (
