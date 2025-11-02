@@ -1,6 +1,6 @@
 # Project Based Internship Rakamin Kimia Farma - Performance Analytics Dashboard
 
-Dashboard interaktif berbasis **Looker Studio** yang menampilkan analisis performa penjualan, transaksi, dan profit cabang **Kimia Farma** di seluruh Indonesia untuk memberikan insight berbasis data yang membantu pengambilan keputusan bisnis secara lebih efektif.
+Pembuatan dashboard interaktif berbasis **Looker Studio** yang menampilkan analisis performa penjualan, transaksi, dan profit **PT Kimia Farma Tbk** untuk memberikan insight berbasis data yang membantu pengambilan keputusan bisnis secara lebih efektif.
 
 ---
 
